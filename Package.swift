@@ -25,7 +25,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMinor(from: "1.2.1")),
         .package(url: "https://github.com/apple/swift-syntax.git", exact: "510.0.0"),
-        .package(url: "https://github.com/chotchki/SourceKitten.git", branch: "catalyst-fix"),
+        .package(url: "https://github.com/CameronFc/SourceKitten.git", branch: "main"),
         .package(url: "https://github.com/jpsim/Yams.git", from: "5.0.6"),
         .package(url: "https://github.com/scottrhoyt/SwiftyTextTable.git", from: "0.9.0"),
         .package(url: "https://github.com/JohnSundell/CollectionConcurrencyKit.git", from: "0.2.0"),
